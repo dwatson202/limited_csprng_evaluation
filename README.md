@@ -22,7 +22,7 @@ I hope to highlight what happens to CSPRNGs when limited by output. For example,
   <li>CSPRNG is perfect (or statiscily perfect;not broken)</li>
   <li>Bitstring CSPRNG (Stream)</li>
   <li>Source or Seed of is unknownable</li>
-  </li>Unsigned Binary Integers (to start with)</li>
+  <li>Unsigned Binary Integers (to start with)</li>
 </ul>
 
 Evaluating a 0-9 valid ouput:
