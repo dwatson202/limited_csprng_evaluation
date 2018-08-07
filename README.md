@@ -54,7 +54,7 @@ To store in any binary computer (almost all computers) 9 Decial in binary requir
   <dd>Use subustions ciphers to map the invalid space to valid spaces.</dd>
   <dt>Logic bit opreations:</dt>
   <dd>Could be classified same as shift/add/subtract.</dd>
-  <dt>Count the set bets/dt>
+  <dt>Count the set bets</dt>
   <dd>Could the number of set bits in a N long bitstring. Return the percentage of set bits. </dd>
   <dt>Subset Selection</dt>
   <dd>Variant of Long and Trunkate. Cretae substring from a long N bitstring, incrument the starting point of the substring by one until a match on the range constraint is found.</dd>
