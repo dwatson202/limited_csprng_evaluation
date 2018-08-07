@@ -1,4 +1,5 @@
 # limited csprng evaluation
+# The impact of proir knowedge on reducing search spaces through constraining valid output
 Open work and thoughts on CSPRNGs with limited range output and the conquences of randominess
 
 First I would like to thank the CRC Publishers and their great Authors for great books on Crypto:
