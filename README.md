@@ -17,14 +17,13 @@ This is a open thought thought experiment. In this paper I am opennly collecting
 What is this project:
 I hope to highlight what happens to CSPRNGs when limited by output. For example, in a 10 ball game (0-9), 6 possible bit combos are left unused. The full set of space is 2^4, but it a 10 ball game, only numbers 0x0000 to 0x1001 are wanted. An investagion of what impact this has on randominize. Various ways to impliement it (code agnoisticly) and the impact on the resulting numbers. The work of this paper is to evaluate the constraits and how they may bias a CSPRNG.
 
-Assumtions:
--CSPRNG is perfect (or statiscily perfect;not broken)
--Bitstring CSPRNG (Stream)
--Hardware Conserns:
-  Big-Enden
-  Little-Enden
--Source or Seed of is unknownable
--Unsigned Binary Integers (to start with)
+<th>Assumtions:</th>
+<ul>
+  <li>CSPRNG is perfect (or statiscily perfect;not broken)</li>
+  <li>Bitstring CSPRNG (Stream)</li>
+  <li>Source or Seed of is unknownable</li>
+  </li>Unsigned Binary Integers (to start with)</li>
+</ul>
 
 Evaluating a 0-9 valid ouput:
 To store in any binary computer (almost all computers) 9 Decial in binary requires a minium of 4 bits Unsigned Binary. Since a CSPRNG will generate all possible combos of 4 bit length strings equally likely (its perfect). So, 6/16 possible strings of length 4 are invalid output. If a program where to call the CSPRNG for a length of 4 bits, only 10/16 would be valid returns. How does a program handle this depends on the hardware, software, and the program/programmer. It's these biases that could impact a good or even prefect CSPRNG.
