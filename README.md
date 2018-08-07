@@ -74,3 +74,6 @@ Each of these methods could be impacted by the Endenace of the system they to wh
 <p>
 When evaluating the constraitment from numbers using a bit by bit method. Since the CSPRNG is perfect, each next bit is unguessable. The most significant bit is generated and stored first (Big Endian). It is checked, it accepted because the 0x1000 is less than 0x1010. Regardless if the first digit is 0 or 1, the odds of regenerating the next bit is 6/10 in the 0-9 example (4/10 not regenerate). [TO-DO:Bayse's therem math here]
 </p>
+
+<h2>Search Spaces and Constraints</h2>
+Number storage for unsigned binary integer in D in decimal is floor((log(D)/log(2)) + 1). If each bit was randomly generated, the search space would be 2^n, where n = floor((log(D)/log(2)) + 1).
