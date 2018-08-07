@@ -1,5 +1,7 @@
-# The impact of creating proir knowedge by reducing search spaces through constraining valid output on CSPRNGs
+# The impact of creating a priori knowedge by reducing search spaces through constraining valid output on CSPRNGs
 Open work and thoughts on CSPRNGs with limited range output and the conquences of asssumed randominess. This work is to evaluate how improper implmenation of constraits and manipluiation on the output may impact the security of bitstream CSPRNG.
+
+An extension of the Monty Hall Problem in programming
 
 First I would like to thank the CRC Publishers and their great Authors for great books on Crypto:
 Algorithmic Cyrpotananlysis by Antonine Joux
